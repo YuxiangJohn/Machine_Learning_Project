@@ -17,3 +17,15 @@ Input 1    Input 2    Linear Combination    Activation Output   Is Correct
       0          1                  -1.0                    0          Yes
       1          0                   0.0                    1          Yes
       1          1                  -1.0                    0          Yes
+
+
+Gradient Descent
+
+# Result
+
+Neural Network output:
+0.689974481128
+Amount of Error:
+-0.189974481128
+Change in Weights:
+[-0.02031869 -0.04063738 -0.06095608 -0.08127477]
