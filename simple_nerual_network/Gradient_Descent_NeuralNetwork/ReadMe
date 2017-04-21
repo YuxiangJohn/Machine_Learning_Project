@@ -1,0 +1,13 @@
+#Result
+
+Train loss:  0.264052904859
+Train loss:  0.251968701348
+Train loss:  0.242477221838
+Train loss:  0.235426571691
+Train loss:  0.230521287325
+Train loss:  0.227406714851
+Train loss:  0.225728014656
+Train loss:  0.225163863002
+Train loss:  0.225441553462   WARNING - Loss Increasing
+Train loss:  0.226340051166   WARNING - Loss Increasing
+Prediction accuracy: 0.725
