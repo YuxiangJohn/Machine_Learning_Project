@@ -5,20 +5,47 @@ May 8th, 2017
 
 ## Proposal
 Distracted Driver Detection.
-We've all been there: a light turns green and the car in front of you doesn't budge. Or, a previously unremarkable vehicle suddenly slows and starts swerving from side-to-side.
 
-When you pass the offending driver, what do you expect to see? You certainly aren't surprised when you spot a driver who is texting, seemingly enraptured by social media, or in a lively hand-held conversation on their phone.
 
-![](graph/1.png)
 ### Domain Background
 _(approx. 1-2 paragraphs)_
 
 In this section, provide brief details on the background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited in this section, including why that research is relevant. Additionally, a discussion of your personal motivation for investigating a particular problem in the domain is encouraged but not required.
 
+We've all been there: a light turns green and the car in front of you doesn't budge. Or, a previously unremarkable vehicle suddenly slows and starts swerving from side-to-side.
+
+When you pass the offending driver, what do you expect to see? You certainly aren't surprised when you spot a driver who is texting, seemingly enraptured by social media, or in a lively hand-held conversation on their phone.
+
+![](graph/1.png)
+
+According to the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver. Sadly, this translates to 425,000 people injured and 3,000 people killed by distracted driving every year.
+
+State Farm hopes to improve these alarming statistics, and better insure their customers, by testing whether dashboard cameras can automatically detect drivers engaging in distracted behaviors. Given a dataset of 2D dashboard camera images, State Farm is challenging Kagglers to classify each driver's behavior.
+
+
 ### Problem Statement
 _(approx. 1 paragraph)_
 
 In this section, clearly describe the problem that is to be solved. The problem described should be well defined and should have at least one relevant potential solution. Additionally, describe the problem thoroughly such that it is clear that the problem is quantifiable (the problem can be expressed in mathematical or logical terms) , measurable (the problem can be measured by some metric and clearly observed), and replicable (the problem can be reproduced and occurs more than once).
+
+We are given driver images, each taken in a car with a driver doing something in the car(texting, eating, talking on the phone, makeup, reaching behind, etc). Our goal is to predict the likelihood of what the driver is doing in each picture.
+
+![](graph/driver.gif)
+
+The 10 classes to predict are:
+* c0: safe driving
+* c1: texting - right
+* c2: talking on the phone - right
+* c3: texting - left
+* c4: talking on the phone - left
+* c5: operating the radio
+* c6: drinking
+* c7: reaching behind
+* c8: hair and makeup
+* c9: talking to passenger
+
+
+
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
