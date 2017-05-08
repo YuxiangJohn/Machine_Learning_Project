@@ -1,11 +1,14 @@
 # Machine Learning Engineer Nanodegree
-## Capstone Proposal
-Joe Udacity  
-December 31st, 2050
+## Capstone Proposal-Distracted Driver Detection
+Yuxiang Jiang  
+May 8th, 2017
 
 ## Proposal
-_(approx. 2-3 pages)_
+Distracted Driver Detection.
+We've all been there: a light turns green and the car in front of you doesn't budge. Or, a previously unremarkable vehicle suddenly slows and starts swerving from side-to-side.
 
+When you pass the offending driver, what do you expect to see? You certainly aren't surprised when you spot a driver who is texting, seemingly enraptured by social media, or in a lively hand-held conversation on their phone.
+![](1.png)
 ### Domain Background
 _(approx. 1-2 paragraphs)_
 
