@@ -108,6 +108,16 @@ img_1.jpg,0.3,0.1,0.6,0,...,0
 
 In this final section, summarize a theoretical workflow for approaching a solution given the problem. Provide thorough discussion for what strategies you may consider employing, what analysis of the data might be required before being used, or which algorithms will be considered for your implementation. The workflow and discussion that you provide should align with the qualities of the previous sections. Additionally, you are encouraged to include small visualizations, pseudocode, or diagrams to aid in describing the project design, but it is not required. The discussion should clearly outline your intended workflow of the capstone project.
 
+* Load data
+* visualize data
+* split data into training and testing sets
+* design the train model
+* visualize the model
+* train the model
+* calculate the accuracy
+* sample predict
+* save model
+
 
 -----------
 
