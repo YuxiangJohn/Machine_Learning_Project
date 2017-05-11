@@ -56,23 +56,20 @@ The Datasets are collected by "State Farm", you can download the data from the w
 
 ### Solution Statement
 
-
 Deep Residual Learning is a protential solution for this question. ResNet is developed by using the residual learning framework. As our data have ten different labels, and the contents of pictures are very complicated, our net must be deep enough to distinguish the small features which can represent the class very well. 
 The deep convolutional neural networks have a problem calls "degradation problem": with the network depth increasing, accuracy gets saturated and then degrades rapidly. Adding more layers to a suitable deep model leads to higher training error. The ResNet can ease the training of the training of the networks that are substantially deeper than those used previously.
 
 ### Benchmark Model
-_(approximately 1-2 paragraphs)_
 
 In this section, provide the details for a benchmark model or result that relates to the domain, problem statement, and intended solution. Ideally, the benchmark model or result contextualizes existing methods or known information in the domain and problem given, which could then be objectively compared to the solution. Describe how the benchmark model or result is measurable (can be measured by some metric and clearly observed) with thorough detail.
+![](graph/3.png)
 
 ### Evaluation Metrics
-_(approx. 1-2 paragraphs)_
 
 In this section, propose at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model. The evaluation metric(s) you propose should be appropriate given the context of the data, the problem statement, and the intended solution. Describe how the evaluation metric(s) are derived and provide an example of their mathematical representations (if applicable). Complex evaluation metrics should be clearly defined and quantifiable (can be expressed in mathematical or logical terms).
 
 
 ### Project Design
-_(approx. 1 page)_
 
 In this final section, summarize a theoretical workflow for approaching a solution given the problem. Provide thorough discussion for what strategies you may consider employing, what analysis of the data might be required before being used, or which algorithms will be considered for your implementation. The workflow and discussion that you provide should align with the qualities of the previous sections. Additionally, you are encouraged to include small visualizations, pseudocode, or diagrams to aid in describing the project design, but it is not required. The discussion should clearly outline your intended workflow of the capstone project.
 
