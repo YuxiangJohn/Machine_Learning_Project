@@ -8,9 +8,7 @@ Distracted Driver Detection.
 
 
 ### Domain Background
-_(approx. 1-2 paragraphs)_
 
-In this section, provide brief details on the background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited in this section, including why that research is relevant. Additionally, a discussion of your personal motivation for investigating a particular problem in the domain is encouraged but not required.
 
 We've all been there: a light turns green and the car in front of you doesn't budge. Or, a previously unremarkable vehicle suddenly slows and starts swerving from side-to-side.
 
@@ -24,9 +22,7 @@ State Farm hopes to improve these alarming statistics, and better insure their c
 
 
 ### Problem Statement
-_(approx. 1 paragraph)_
 
-In this section, clearly describe the problem that is to be solved. The problem described should be well defined and should have at least one relevant potential solution. Additionally, describe the problem thoroughly such that it is clear that the problem is quantifiable (the problem can be expressed in mathematical or logical terms) , measurable (the problem can be measured by some metric and clearly observed), and replicable (the problem can be reproduced and occurs more than once).
 
 We are given driver images, each taken in a car with a driver doing something in the car(texting, eating, talking on the phone, makeup, reaching behind, etc). Our goal is to predict the likelihood of what the driver is doing in each picture.
 
@@ -59,9 +55,10 @@ The Datasets are collected by "State Farm", you can download the data from the w
 * driver_imgs_list.csv - a list of training images, their subject (driver) id, and class id
 
 ### Solution Statement
-_(approx. 1 paragraph)_
 
-In this section, clearly describe a solution to the problem. The solution should be applicable to the project domain and appropriate for the dataset(s) or input(s) given. Additionally, describe the solution thoroughly such that it is clear that the solution is quantifiable (the solution can be expressed in mathematical or logical terms) , measurable (the solution can be measured by some metric and clearly observed), and replicable (the solution can be reproduced and occurs more than once).
+
+Deep Residual Learning is a protential solution for this question. ResNet is developed by using the residual learning framework. As our data have ten different labels, and the contents of pictures are very complicated, our net must be deep enough to distinguish the small features which can represent the class very well. 
+The deep convolutional neural networks have a problem calls "degradation problem": with the network depth increasing, accuracy gets saturated and then degrades rapidly. Adding more layers to a suitable deep model leads to higher training error. The ResNet can ease the training of the training of the networks that are substantially deeper than those used previously.
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
@@ -72,6 +69,7 @@ In this section, provide the details for a benchmark model or result that relate
 _(approx. 1-2 paragraphs)_
 
 In this section, propose at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model. The evaluation metric(s) you propose should be appropriate given the context of the data, the problem statement, and the intended solution. Describe how the evaluation metric(s) are derived and provide an example of their mathematical representations (if applicable). Complex evaluation metrics should be clearly defined and quantifiable (can be expressed in mathematical or logical terms).
+
 
 ### Project Design
 _(approx. 1 page)_
