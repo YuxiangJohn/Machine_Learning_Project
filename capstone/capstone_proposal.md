@@ -44,13 +44,19 @@ The 10 classes to predict are:
 * c8: hair and makeup
 * c9: talking to passenger
 
-
+To solve this problem, I will build a Deep Nerual Network, or use the popular net structrue such as ResNet. 
 
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
 
-In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
+The Datasets are collected by "State Farm", you can download the data from the website:https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
+
+#### File descriptions
+
+* imgs.zip - zipped folder of all (train/test) images
+* sample_submission.csv - a sample submission file in the correct format
+* driver_imgs_list.csv - a list of training images, their subject (driver) id, and class id
 
 ### Solution Statement
 _(approx. 1 paragraph)_
