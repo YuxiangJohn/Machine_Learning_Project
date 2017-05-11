@@ -72,8 +72,8 @@ We can use this framework to build a very deep neural network.
 
 Submissions are evaluated using the multi-class logarithmic loss. Each image has been labeled with one true class. For each image, you must submit a set of predicted probabilities oneforeveryimageoneforeveryimage. The formula is then,
 
-logloss=−1N∑i=1N∑j=1Myijlog(pij),
-logloss=−1N∑i=1N∑j=1Myijlog⁡(pij),
+![](graph/2.PNG)
+
 where N is the number of images in the test set, M is the number of image class labels,  \\loglog is the natural logarithm, \\yijyij is 1 if observation \\ii belongs to class \\jj and 0 otherwise, and \\pijpij is the predicted probability that observation \\ii belongs to class \\jj.
 
 The submitted probabilities for a given image are not required to sum to one because they are rescaled prior to being scored eachrowisdividedbytherowsumeachrowisdividedbytherowsum. In order to avoid the extremes of the log function, predicted probabilities are replaced with \\max(min(p,1−10−15max(min(p,1−10−15,10^{-15})\\).
