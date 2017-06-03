@@ -29,3 +29,5 @@ jupyter notebook final.ipynb
 ```
 
 It will start the jupyter notebook and open the project file in your browser 
+
+The total running time will be around 12 hours in the AWS server P2.xlarge. The running result can be seen in the final.ipynb
